@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import * as bootstrap from "bootstrap";
-import { createArtist } from "../services/artists.service";
+import { createArtist } from "../src/services/artists.service";
 
 const artistForm = document.querySelector("form");
 

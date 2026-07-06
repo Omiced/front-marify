@@ -12,7 +12,7 @@ registerForm.addEventListener("submit", (e) => {
   registerForm.reset();
   showAlert(registerForm);
   setTimeout(() => {
-    window.location.href = "/src/login/login.html";
+    window.location.href = "/login/login.html";
   }, 3000);
 });
 

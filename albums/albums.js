@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import * as bootstrap from "bootstrap";
-import { getAllArtist, addAlbum } from "../services/artists.service";
+import { getAllArtist, addAlbum } from "../src/services/artists.service";
 const albumForm = document.querySelector("form");
 const selectArtist = albumForm.querySelector("select");
 

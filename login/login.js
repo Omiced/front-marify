@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import * as bootstrap from "bootstrap";
-import { loginUser } from "../services/user.service";
+import { loginUser } from "../src/services/user.service";
 
 const loginForm = document.querySelector("form");
 
@@ -15,7 +15,7 @@ loginForm.addEventListener("submit", async (e) => {
   }
   showAlert(loginForm, "success", "Login exitoso redirigiendo");
   setTimeout(() => {
-    window.location.href = "/src/artists/artists.html";
+    window.location.href = "/artists/artists.html";
   }, 3000);
 });
 
