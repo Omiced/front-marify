@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marify</title>
+  <script defer type="module" src="./artists.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Artists</a>
+          <a class="nav-link" href="/src/albums/albums.html">Albums</a>
+          <a class="nav-link" href="#">Songs</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <form class="w-50 mt-3 mx-auto">
+    <fieldset>
+      <legend class="text-center">Crear artista</legend>
+      <div class="mb-3">
+        <label for="name" class="form-label">Nombre</label>
+        <input type="text" name="name" id="name" class="form-control" aria-describedby="input para el nombre">
+      </div>
+      <div class="mb-3">
+        <label for="genere" class="form-label">Genero</label>
+        <input name="genere" id="genere" type="text" class="form-control">
+      </div>
+      <button class="btn btn-primary w-100" type="submit">Crear</button>
+    </fieldset>
+  </form>
+</body>
+
+</html>
